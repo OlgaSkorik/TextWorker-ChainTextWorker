@@ -11,6 +11,9 @@ public class ChainTextWorker implements TextProcessable {
 
     String processText(String text) {
         StringBuilder input = new StringBuilder(text);
+        for (int i = 0; i < processes.length; i++) {
+            processes[i].processText(input);
+        }
         return input.toString();
     }
 }
