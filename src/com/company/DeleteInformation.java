@@ -8,10 +8,6 @@ public class DeleteInformation implements TextProcessable {
         this.indexStart = indexStart;
         this.indexEnd = indexEnd;
     }
-//    String deleteInf (StringBuilder input) {
-//        input.delete(indexStart,indexEnd);
-//        return input.toString();
-//    }
 
     @Override
     public void processText(StringBuilder input) {

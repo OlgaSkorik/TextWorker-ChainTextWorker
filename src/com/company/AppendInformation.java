@@ -6,10 +6,6 @@ public class AppendInformation implements TextProcessable {
     public AppendInformation(String insertAtTheEnd) {
         this.insertAtTheEnd = insertAtTheEnd;
     }
-//    String appendInf (StringBuilder input) {
-//        input.append(insertAtTheEnd);
-//        return input.toString();
-//    }
 
     @Override
     public void processText(StringBuilder input) {

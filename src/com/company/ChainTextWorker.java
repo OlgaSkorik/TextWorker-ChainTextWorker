@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Arrays;
+
 public class ChainTextWorker implements TextProcessable {
     TextProcessable[] processes;
 
@@ -7,9 +9,8 @@ public class ChainTextWorker implements TextProcessable {
         this.processes = processes;
     }
 
-    static String processText(String text) {
+    String processText(String text) {
         StringBuilder input = new StringBuilder(text);
-
         return input.toString();
     }
 }

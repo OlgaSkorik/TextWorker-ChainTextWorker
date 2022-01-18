@@ -11,11 +11,6 @@ public class ReplaceInformation implements TextProcessable {
         this.indexToReplaceEnd = indexToReplaceEnd;
     }
 
-//    String replaceInf (StringBuilder input) {
-//        input.replace(indexToReplaceStart,indexToReplaceEnd,objToReplace);
-//        return input.toString();
-//    }
-
     @Override
     public void processText(StringBuilder input) {
         input.replace(indexToReplaceStart,indexToReplaceEnd,objToReplace);

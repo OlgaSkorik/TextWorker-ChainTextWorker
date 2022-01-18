@@ -90,7 +90,7 @@ public class TextWorker {
             char[] sym = text.toCharArray();
             for (i = 0; i < text.length(); i++) {
                 if (sym[i] == symbol) {
-                    System.out.println(i);
+                    System.out.print(i+ " ");
                 }
             }
         }

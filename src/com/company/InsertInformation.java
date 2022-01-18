@@ -10,10 +10,6 @@ public class InsertInformation implements TextProcessable {
         this.index = index;
         this.str = str;
     }
-//    String insertInf (StringBuilder input) {
-//        input.insert(index,str);
-//        return input.toString();
-//    }
 
     @Override
     public void processText(StringBuilder input) {
